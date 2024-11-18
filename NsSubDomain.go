@@ -64,6 +64,7 @@ func CheckSubDomain(domain string) []DnsCheckDomainData {
 	for i := range ipFan {
 		fmt.Println(fmt.Sprintf("【SubDomain Burst】 泛解析IP: %s", i))
 	}
+	fmt.Println()
 	fmt.Println(fmt.Sprintf("【SubDomain Burst】 Count SubDomains Dict %d 个", len(domains)))
 	workWg.Add(1)
 	go threadSubDomain(domain, &workWg, semaphore, task)
