@@ -15,6 +15,8 @@ Usage of NsSubDomain.exe:
 * 内置子域名：3001个
 * 只支持A记录
 
+ 
+# 2. 运行
 ```
 >>NsSubDomain.exe -s baidu.com
 【SubDomain Burst】 泛解析测试
